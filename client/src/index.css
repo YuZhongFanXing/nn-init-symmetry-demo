@@ -1,6 +1,14 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+/* Custom Font Families */
+@layer base {
+  :root {
+    --font-serif: 'Merriweather', serif;
+    --font-mono: 'Fira Code', monospace;
+  }
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
